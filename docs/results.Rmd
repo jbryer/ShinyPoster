@@ -1,0 +1,12 @@
+
+The figure below shows the relationship between miles per gallon (`mpg`), weight (`wt`), and number of cylinders (`cyl`). We estimated the following linear regression:
+
+$$Y_{mpg} = \beta_{wt} + \beta_{cyl} + \beta_{0}$$
+
+and the results are provided below.
+
+```{r, echo=FALSE}
+lm(mpg ~ wt + cyl, data = mtcars)
+```
+
+This box shows how we can include LaTeX equations using [MathJax](https://www.mathjax.org).
